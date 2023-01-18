@@ -14,4 +14,4 @@ export const getCountryCodes = (countries) => countries.map((item) => [item.name
 // OUTPUT: an array of the brands
 // REQS: use .map
 
-export const getBrands = (brands) => brands.map((item) => item.brand);
+export const getBrands = (brands) => brands.map(({ brand }) => brand);
